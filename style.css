@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+  
+body{
+  background-color: #8b55dd;
+}
+
+.menu {
+  float: right;
+  width: 30%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #d89c9c;
+  padding: 12px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+  font-size: 18px;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  margin: 10px 30px;
+  border-style: dotted;
+}
+
+.left {
+  background-color: #157fc1;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .left {
+    width: 100%;
+  }
+}
